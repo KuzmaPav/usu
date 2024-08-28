@@ -1,0 +1,31 @@
+{
+    "model_settings": {
+        "depth": 4,
+        "initial_filters": 32,
+        "optimizer": "adam",
+        "loss_fce": {
+            "py/function": "losses_and_metrics.ssim_loss"
+        },
+        "metrics": [
+            {
+                "py/function": "losses_and_metrics.ssim_metric"
+            },
+            {
+                "py/function": "losses_and_metrics.psnr_metric"
+            },
+            "accuracy"
+        ]
+    },
+    "fit_settings": {
+        "epochs": 20,
+        "batch_size": 16,
+        "validation_split": 0.2,
+        "steps_per_epoch": 100
+    },
+    "model_evaluation": {
+        "loss": 0.14481692016124725,
+        "ssim_metric": 0.8551830053329468,
+        "psnr_metric": 28.29844856262207,
+        "accuracy": 0.06346280127763748
+    }
+}

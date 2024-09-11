@@ -33,5 +33,5 @@ trénování
   
   kroky ~50-100, málo kroků = nedostatečný trénink, hodně kroků = model se přeučí na trénovacích datech
 
-  batch ~4-32, málý batch =  trénování bude pomalejší, ale zabírat méně paměti při trénování, velký batch = rechlejší trénovaní, ale větší pamětoví zatížení
+  batch ~4-32, málý batch =  trénování bude pomalejší, ale zabírat méně paměti při trénování, velký batch = rechlejší trénovaní, ale větší pamětov0 zatížení
 

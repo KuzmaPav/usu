@@ -17,11 +17,13 @@ U trénování modelu: vhodné data, velikost dat, a správné rozložení učen
 
 velikost modelu - záleží
 
-  120 MB model potřebuje přes 12 GB paměti pro učení
+  120 MB model potřebuje ~10 GB paměti pro učení
  
-  300 MB model potřebuje přes 65 GB paměti pro učení
+  300 MB model potřebuje ~50 GB paměti pro učení
  
-  1 GB model potřebuje přes 115 GB paměti pro učení
+  1 GB model potřebuje ~100 GB paměti pro učení
+
+  apod.
 
 ---
 

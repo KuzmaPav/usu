@@ -27,5 +27,19 @@
         "ssim_metric": 0.7663271427154541,
         "psnr_metric": 21.443683624267578,
         "accuracy": 0.0636548176407814
+    },
+    "disclosed_predictions": {
+        "poisson_intensity_0.1": 0.773173451423645,
+        "poisson_intensity_0.2": 0.761259913444519,
+        "poisson_intensity_0.3": 0.7906699776649475,
+        "salt_and_pepper_speckle_intensity_0.01_0.1": 0.7826284766197205,
+        "salt_and_pepper_speckle_intensity_0.03_0.3": 0.7735385894775391,
+        "salt_and_pepper_speckle_intensity_0.05_0.2": 0.718054473400116,
+        "salt_pepper_intensity_0.01": 0.8063777685165405,
+        "salt_pepper_intensity_0.03": 0.7987523078918457,
+        "salt_pepper_intensity_0.05": 0.7744477987289429,
+        "speckle_intensity_0.1": 0.792136549949646,
+        "speckle_intensity_0.05": 0.7189294695854187,
+        "speckle_intensity_0.15": 0.7697137594223022
     }
 }

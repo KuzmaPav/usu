@@ -155,7 +155,7 @@ def save_model_info(model_settings:dict, fit_settings:dict, model_evaluation:dic
     else:
         next_number = 1
 
-    settings_name = os.path.join(model_dir, f"set_{next_number}")
+    settings_name = os.path.join(model_dir, f"setting_{next_number}")
 
     with open(settings_name + ".json", "w") as writer:
         writer.write(str(jsonpickle.encode({

@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-#MODEL_PATH = r"saved_models/model1-UNet/set_7.keras"
-MODEL_PATH = "temp060720674830973875.keras"
+#MODEL_PATH = r"saved_models/model1-UNet/setting_7.keras"
+MODEL_PATH = r"saved_models/model2-Custom/temp060720674830973875.keras"
 
 x_data, y_data = nnetwork.prepare_data(nnetwork.DEFAULT_NOISE_DATA_PATH, nnetwork.DEFAULT_CLEAN_DATA_PATH)
 
